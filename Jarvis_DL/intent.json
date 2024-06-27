@@ -1,0 +1,69 @@
+{
+    "intents" : [
+        {
+            "tag" : "greetings",
+            "patterns": ["hello","hi","wakeup","morning","you there","hey"
+            ],
+            "responses" : [
+                "Hello sir",
+                "Hi", "Ready for Work sir",
+                "Good Morning sir",
+                "Always for you sir",
+                "Welcome Home sir we're online"
+        ]
+        },
+        {
+            "tag" : "bye" ,
+            "patterns": ["bye","see you later","night","quit, exit", "Thank you but i don't need your help for now"
+            ], "responses" : [
+            "see you soon, sir",
+            "HAVE a SWEET DREAMS","Done",
+            "yes sir",
+            "it's okay sir i'll wait till you need my help"
+        ]
+        },
+        {
+            "tag" : "health",
+            "patterns" : ["How are you", "What's up", "what you're up to","I'm leaving"],
+            "responses" :["Always good",
+                "I'm Online",
+                "Waiting for you to give me a work",
+                "Going offline..."]
+        },
+        {
+            "tag" : "happy",
+            "patterns": ["Really appreciate you", "I'm so happy", "you made me happy"
+            ], "responses" : [ "Thank you!", "I enjoy seeing you happy, sir", "I am indeed so glad"
+        ]
+        },
+        {
+            "tag" : "sad",
+            "patterns": [ "humility", "embarrass", "weeping"
+            ], "responses" : [ "it's okay to get humiliated",
+            "I wonder who gets you embarrassed and its pretty easy these days",
+            "I am sorry i wonder what makes you cry"
+        ]
+        },
+        {
+            "tag" : "surprise",
+            "patterns": ["wow", "fascinating", "amazing"
+            ], "responses" : ["I'm so glad you liked it sir"
+        ]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["what's the weather like?", "tell me the weather", "weather update", "is it going to rain today?"],
+            "responses": ["Let me check the weather for you.", "Here's the weather update.", "It's sunny today.", "It looks like it might rain later."]
+        },
+        {
+            "tag": "time",
+            "patterns": ["what time is it?", "tell me the time", "current time", "what's the time now?"],
+            "responses": ["The current time is 3 PM.", "It's 10:30 AM.", "Right now, it's 6:45 PM.", "The time is 12:00 noon."]
+        },
+        {
+            "tag": "news",
+            "patterns": ["what's the news?", "tell me the latest news", "news update", "any news today?"],
+            "responses": ["Here are the latest headlines.", "Checking the news for you.", "Here's what's happening today.", "These are the top news stories."]
+        }
+    ]
+}
